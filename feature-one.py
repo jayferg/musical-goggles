@@ -1,4 +1,5 @@
 # feature-one.py
 import secrets
 
-print(secrets.token_urlsafe())
+def feature-one():
+	print(secrets.token_urlsafe())
