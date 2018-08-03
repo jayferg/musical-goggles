@@ -7,6 +7,8 @@ def feature-two(s: str) -> str:
 	shuffle(l)   # in place
 	return "".join(l)
 
-
+def feature-three(s: str) -> str:
+	"""Return an upper case, shuffled version of s"""
+	return feature-two(s).upper()
 
 
