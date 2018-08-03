@@ -8,8 +8,6 @@ def feature-two(s: str) -> str:
 	return "".join(l)
 
 
-
-
 def feature-four(s: str) -> str:
 	"""return an upper case version of s"""
 	return s.upper()
